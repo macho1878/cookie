@@ -1,0 +1,42 @@
+body {
+  background-color: aqua;
+}
+.cookie-container1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+}
+
+.start {
+  padding: 10px;
+  border: dashed 5px black;
+  background-color: blue;
+}
+
+.stop {
+  padding: 10px;
+  border: dashed 5px black;
+  background-color: yellowgreen;
+}
+
+.cookie-start {
+  border-style: groove;
+  border-width: 8px;
+  border-color: brown;
+  display: inline-block;
+  text-align: center;
+  background-color: black;
+  color: yellowgreen;
+}
+
+.cookie-stop {
+  border: groove 8px brown;
+  display: inline-block;
+  text-align: center;
+  background-color: black;
+  color: blue;
+}
